@@ -2,6 +2,7 @@ const handleError = require('../error/errorHandler');
 const ACCEPTED_DOMAINS = ['http://localhost:3000',
                           'http://localhost:5000',
                           'https://trust-fund-mu.vercel.app',
+                          'https://trustvalidators.herokuapp.com',
                           'http://localhost:5001',
                           'http://localhost:5001',
                           'http://localhost:5002',
