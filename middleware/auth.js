@@ -8,6 +8,7 @@ const ACCEPTED_DOMAINS = ['http://localhost:3000',
                           'http://localhost:5002',
                           'http://localhost:5003',
                           'https://localhost:4200'];
+                          
 
 module.exports = (req, res, next) => {
     const origin = req.get('origin');
